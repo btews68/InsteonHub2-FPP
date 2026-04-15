@@ -1,0 +1,7 @@
+{
+  "host": "192.168.1.50",
+  "username": "your_hub_username",
+  "password": "your_hub_password",
+  "timeout_seconds": 5,
+  "retries": 2
+}
