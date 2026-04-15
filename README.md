@@ -84,6 +84,19 @@ Important:
 - FPP installs from `srcURL` in pluginInfo.json (git clone), not from zip URL.
 - The repository URL in `srcURL` must be reachable by the FPP box.
 
+## If settings page does not appear in menu
+
+FPP discovers plugin pages via menu include files.
+This plugin includes both `status_menu.inc` and `content_menu.inc` to add a UI link.
+
+If the plugin is already installed from an older commit, upgrade it in FPP Plugin Manager, then refresh browser.
+
+Direct access fallback URL:
+
+```text
+http://<FPP-IP>/plugin.php?plugin=InsteonHub2&page=settings.php
+```
+
 ## Command examples
 
 ### By device friendly name
