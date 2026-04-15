@@ -1,0 +1,8 @@
+{
+  "pluginList": [
+    [
+      "InsteonHub2",
+      "https://raw.githubusercontent.com/btews68/InsteonHub2-FPP/main/pluginInfo.json"
+    ]
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "repoName": "InsteonHub2",
+  "name": "Insteon Hub 2 Control",
+  "author": "btews68",
+  "description": "Control Insteon Hub 2245-222 switches/scenes from FPP events and playlists.",
+  "homeURL": "https://github.com/btews68/InsteonHub2-FPP",
+  "srcURL": "https://github.com/btews68/InsteonHub2-FPP.git",
+  "bugURL": "https://github.com/btews68/InsteonHub2-FPP/issues",
+  "allowUpdates": 1,
+  "versions": [
+    {
+      "minFPPVersion": "8.0",
+      "maxFPPVersion": "0",
+      "branch": "main",
+      "sha": ""
+    }
+  ]
+}

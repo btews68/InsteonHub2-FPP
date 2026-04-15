@@ -1,0 +1,16 @@
+{
+  "show_opening": {
+    "scene": "party_mode"
+  },
+  "show_closing": {
+    "scene": "all_off"
+  },
+  "snowflake_scene": {
+    "device": "deck_string_lights",
+    "action": "dim",
+    "level": 80
+  },
+  "chill_mode": {
+    "scene": "movie_mode"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "party_mode": {
+    "group": "01",
+    "mode": "on",
+    "level": 100
+  },
+  "movie_mode": {
+    "group": "02",
+    "mode": "on",
+    "level": 25
+  },
+  "all_off": {
+    "group": "FF",
+    "mode": "off"
+  },
+  "sunset_lights": {
+    "group": "03",
+    "mode": "on",
+    "level": 50
+  }
+}
