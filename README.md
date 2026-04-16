@@ -3,6 +3,9 @@
 Copyright (c) 2026 William Tews (btews68)
 This project is licensed under the MIT License. See the LICENSE file for details.
 
+## Website
+Visit HolidayPixelZone: [HolidayPixelZone.com](https://holidaypixelzone.com)
+
 # FPP Insteon Hub 2 Plugin (2245-222)
 
 This plugin scaffold lets Falcon Player trigger Insteon switch actions, scenes, and groups over the local Hub 2 API.
