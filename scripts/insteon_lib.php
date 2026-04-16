@@ -178,7 +178,8 @@ function insteon_response_looks_successful(int $httpCode, string $body): bool
     }
 
     if (trim($body) === '') {
-        return false;
+        // Hub 2 often returns HTTP 200 with an empty body for accepted commands.
+        return true;
     }
 
     $needle = strtolower($body);
