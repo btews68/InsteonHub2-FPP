@@ -12,7 +12,9 @@
       "minFPPVersion": "0",
       "maxFPPVersion": "0",
       "branch": "main",
-      "sha": ""
+      "sha": "",
+      "postInstall": "scripts/install.sh",
+      "postUpgrade": "scripts/install.sh"
     }
   ]
 }
