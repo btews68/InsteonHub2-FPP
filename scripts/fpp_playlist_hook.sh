@@ -35,7 +35,8 @@ if [[ -z "${PHP_BIN}" ]]; then
   exit 1
 fi
 
-PLAYLIST_NAME=$(grep -o '"filename":"[^"]*' "${EVENT_FILE}" | head -1 | cut -d'"' -f4)
+# Parse filename from event JSON - tolerates spaces around colon
+PLAYLIST_NAME=$(grep -oE '"filename"[[:space:]]*:[[:space:]]*"[^"]*"' "${EVENT_FILE}" | head -1 | sed -E 's/.*:[[:space:]]*"([^"]*)"/\1/')
 if [[ -z "${PLAYLIST_NAME}" ]]; then
   echo "Could not extract playlist name from event" >&2
   exit 0
